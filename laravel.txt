@@ -1,0 +1,64 @@
+1)What is MVC architecture
+ 
+Model
+The Model component corresponds to all the data-related logic that the user works with
+ 
+ 
+View
+The View component is used for all the UI logic of the application
+ 
+ 
+Controller
+Controllers act as an interface between Model and View components to process all the business logic and incoming requests, manipulate data using the Model component and interact with the Views to render the final output.
+ 
+ 
+2)How can you check the installed Laravel version of a project.
+php artisan –version
+ 
+ 
+3) What are the two main routing files found in Laravel?
+
+web.php and api.php
+ 
+ 
+4)How many restful resource controllers in Laravel, and what are the action.                   
+handled by the restful resource controllers?
+
+index, show, create, store,edit, update, destroy.
+Actions: GET, POST, PUT, DELETE.
+ 
+
+
+ 
+5) Name a few common artisan commands used in 
+Laravel? Also, state the function of each command ?
+
+php artisan serve: run the serve
+php artisan make: migration table_name:   create a database migration
+php artisan migrate:  publishes all our schema to the database. This command also creates the table in the database
+ 
+ 
+ 
+ 
+ 
+ 
+6) Ahmed wrote the following validation rules for a file uploading field
+$request-&gt;validate([‘file’ =&gt; ‘required|mimes:doc,pdf|max:2048’]);
+Briefly explain the above validation rules.
+ 
+the file is required:The file must be placed
+Mime:  the file extension is doc or pdf
+Max: the maximum file is 2048
+
+
+
+7)Make a comparison between GET and POST methods?
+
+GET: fetch data 
+POST: add data
+
+
+8) What are official packages in Laravel?
+
+Spatie, latafel debuger,laravel user verification, migration generator
+   
