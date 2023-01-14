@@ -33,7 +33,7 @@ Actions: GET, POST, PUT, DELETE.
 5) Name a few common artisan commands used in 
 Laravel? Also, state the function of each command ?
 
-php artisan serve: run the serve
+php artisan serve: run the server
 php artisan make: migration table_name:   create a database migration
 php artisan migrate:  publishes all our schema to the database. This command also creates the table in the database
  
